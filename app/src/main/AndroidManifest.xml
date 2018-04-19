@@ -20,7 +20,7 @@
             android:name=".topsongs.TopSongsActivity"
             android:label="@string/top_songs">
         </activity>
-        
+
     </application>
 
 </manifest>
