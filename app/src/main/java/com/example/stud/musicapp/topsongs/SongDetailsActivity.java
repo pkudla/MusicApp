@@ -40,7 +40,6 @@ public class SongDetailsActivity extends AppCompatActivity {
             public void onResponse(Call<Tracks> call, Response<Tracks> response) {
 
                 Toast.makeText(SongDetailsActivity.this, "Pobrano dane", Toast.LENGTH_SHORT).show();
-
             }
 
             @Override
