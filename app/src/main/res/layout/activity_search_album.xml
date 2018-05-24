@@ -24,8 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/bSearch"
             android:layout_marginRight="8dp"
-            android:hint="@string/enter"
-            android:maxLength="1" />
+            android:hint="@string/enter" />
 
     </RelativeLayout>
     <android.support.v7.widget.RecyclerView
