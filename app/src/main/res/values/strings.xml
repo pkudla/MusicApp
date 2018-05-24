@@ -5,4 +5,5 @@
     <string name="genre">gatunek</string>
     <string name="style">styl</string>
     <string name="favorites">ulubione</string>
+    <string name="searchalbum">Znajdz Album</string>
 </resources>
