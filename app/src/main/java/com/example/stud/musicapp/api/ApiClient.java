@@ -4,10 +4,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-/**
- * Created by W57012 on 2018-04-19.
- */
-
 public interface ApiClient {
     @GET( "trending.php" )
     Call<TrendingList> getTrendingList(@Query( "country" ) String country, @Query ( "type" )
@@ -15,4 +11,7 @@ public interface ApiClient {
 
     @GET("track.php")
     Call<Tracks> getTrack(@Query("h") int trackId);
+
+    @GET("searchalbum.php")
+    Call<SearchAlbums> searchAlbums(@Query("s") String artist);
 }
